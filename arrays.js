@@ -24,7 +24,8 @@ function removeElementFromBeginningOfArra(array101){
   var newArray = array101.slice(1);
   return newArray;
 }
-function destructivelyRemoveElementFromEndOfArray(array101){
+function destructivelyRemoveElementFromEndOfArray(array){
+  //destructivelyRemoveElementFromEndOfArray([1, 2, 3])).to.eql([1, 2])
    var newArray2 =  array101.pop()
    return newArray2;
 }
