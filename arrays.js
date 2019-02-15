@@ -5,16 +5,16 @@ var chocolateBars = [
                      'skittles']
 
 function addElementToBeginningOfArray(array, newVal){
-   array.unshift(newVal);
-   return array;
+   var newArray = [newVal, ...array];
+   return newArray;
 }
 function destructivelyAddElementToBeginningOfArray(array101, newVal){
    array101.unshift(newVal);
    return array101; 
 }
 function addElementToEndOfArray(array, element){
-  array.push(element);
-  return array;
+   var newArray = [...array, newVal];
+   return newArray;
 }
 function destructivelyAddElementToEndOfArray(array404, newVal4){
   array404.push(newVal4);
