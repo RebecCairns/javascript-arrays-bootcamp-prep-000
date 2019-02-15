@@ -33,5 +33,5 @@ function removeElementFromEndOfArray(array101){
   return newArray3;
 }
 function  accessElementInArray(array, index){
-  
+  return array[index];
 }
