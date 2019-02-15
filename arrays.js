@@ -21,7 +21,7 @@ function destructivelyAddElementToEndOfArray(array404, newVal4){
   return array404; 
 }
 function removeElementFromBeginningOfArray(array){
-  var newArray = array101.slice(-2);
+  var newArray = array.slice(-2);
   return newArray;
 }
 function destructivelyRemoveElementFromEndOfArray(array){
